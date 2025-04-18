@@ -4,21 +4,21 @@ const resetBtn = document.getElementById("resetBtn");
 const increaseBtn = document.getElementById("increaseBtn");
 const countLabel = document.getElementById("countLabel");
 
-let count = 0;
+let i = 0;
 
 increaseBtn.onclick = function() {
-    count++;
-    countLabel.textContent = count;
+    i++;
+    countLabel.textContent = i;
 }
 
 decreaseBtn.onclick = function() {
-    count--;
-    countLabel.textContent = count;
+    i--;
+    countLabel.textContent = i;
 }
 
 resetBtn.onclick = function() {
-    count = 0;
-    countLabel.textContent = count;
+    i = 0;
+    countLabel.textContent = i;
 }
 
 
